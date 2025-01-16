@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Open Sans", serif;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 320px;
+}
+.header{
+    width: 1920px;
+    height: 875px;
+    color: white;
+    background-image: url(1\ \(8\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.header-nav ul{
+    display: flex;
+    gap: 32px;
+}
+.header-nav ul li{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19.2px;
+    text-transform: uppercase;
+}
+.header-nav ul li:hover{
+    color: #F57520;
+    transition: 0.3s;
+}
+
+.header-icons{
+    display: flex;
+    gap: 28px;
+}
+.header-content{
+    width: 645px;
+    height: 457px;
+    margin-top: 80px;
+}
+.header-content h1{
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 118.08px;
+    letter-spacing: 0.02em;
+}
+.header-content p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
+.header-content button{
+    width: 180px;
+    height: 52px;
+    border-radius: 20px ;
+    background-color: #F57520;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.68px;  
+    border: none;    
+}
+.katalog{
+    width: 1920px;
+}
+.katalog-h2{
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78px;
+    text-align: center;
+    margin: 110px 0px;
+}
+.velosipedi{
+    width: 1280px;
+    height: 300px;
+    border-radius: 10px;
+    background: black;
+}
+.nijnee{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.tradein{
+    width: 400px;
+    height: 458px;
+    border-radius: 10px;
+    background-color: black;
+}
+.dvoynie{
+    width: 400px;
+    height: 458px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box{
+    width: 400px;
+    height: 216px;
+    border-radius: 16px;
+    background-color: black;
+}
+.orange:hover{
+    background-color: #F57520;
+    transition: 0.3s;
+}
+.koo{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding-top: 120px;
+    padding-left: 81px;
+}
+.koa{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+.ortan{
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.72px;
+    margin-top: 157px;
+    margin-left: 819px;
+}
+.element1{
+    width: 400px;
+    height: 462px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.element1:hover{
+    background-color:#F57520;
+    color: black;
+    transition: 0.3s;
+}
+.omgdought{
+    width: 1920px;
+    height: 636px;
+    background-color: #F57520;
+    position: relative;
+    z-index: 1;
+    margin-top: 120px;
+}
+.huhi{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+.name{
+    width: 302px;
+    height: 46px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 10px;
+    border: none;
+}
+.hamma{
+    width: 710px;
+    height: 354px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    border-radius: 10px;
+    margin-left: 204px;
+    margin-top: 92px;
+    position: relative;
+    z-index: 3;
+}
+.koolp{ 
+    padding-left: 10px;
+    padding-bottom: 118px;
+    padding-top: -10px;
+    width: 620px;
+    height: 154px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.nun{
+    font-size: 16px;
+    font-weight: 600;
+    width: 608px;
+    height: 52px;
+    padding: 16px 80px 16px 80px;
+    border-radius: 10px;
+    color: #F57520;
+    border: none;
+    
+}
+.klasno{
+    width: 2004px;
+    height: 370px;
+    background-color: black;    
+    margin-top: -10px;
+    color: white;
+    display: flex;
+    gap: 150px;
+
+}
+.ele1{
+    margin-left: 355px;
+    margin-top: 102px;
+}
+.ele2{
+    margin-top: 102px;
+}
+.ele3{
+    margin-top: 102px;
+}
